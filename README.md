@@ -12,10 +12,10 @@
 
 ## Estructura del repositorio
 
-| Directorio | Contenido |
-|------------|-----------|
-| [`docs/`](docs/) | **Web** — sitio Jekyll (GitHub Pages) con la memoria y documentación del TFM |
-| [`tools/`](tools/) | **Tools** — código fuente: agente autónomo, servidor MCP, scripts de automatización |
+| Directorio / raíz | Contenido |
+|-------------------|-----------|
+| Raíz (`*.md`, `_layouts/`, `assets/`) | **Web** — sitio Jekyll (GitHub Pages) con la memoria del TFM |
+| [`tools/`](tools/) | **Tools** — código fuente: agente autónomo, servidor MCP, scripts |
 | [`lab/`](lab/) | **Lab** — laboratorio reproducible: Docker, CTFs y guías de despliegue |
 | [`informes/`](informes/) | Informes técnicos de los casos de estudio |
 
@@ -23,13 +23,12 @@
 
 1. Ir a **Settings → Pages**.
 2. **Source:** Deploy from a branch.
-3. **Branch:** `main` / **Folder:** `/docs`.
+3. **Branch:** `main` / **Folder:** `/ (root)`.
 4. Guardar. La web quedará disponible en unos minutos.
 
 ## Desarrollo local de la web
 
 ```bash
-cd docs
 bundle install
 bundle exec jekyll serve
 ```
