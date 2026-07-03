@@ -1,0 +1,8 @@
+# Servicios del laboratorio TFM
+# En desarrollo — descomentar y completar conforme se implementen los CTFs
+
+services: {}
+
+#  lab-network:
+#    driver: bridge
+#    internal: true

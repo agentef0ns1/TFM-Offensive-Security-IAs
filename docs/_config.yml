@@ -1,0 +1,7 @@
+title: TFM — Seguridad Ofensiva en Sistemas de IA Agénticos
+description: Estudio de vulnerabilidades y protocolos de seguridad en sistemas de inteligencia artificial agénticos — MCAIS2 2.ª edición.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-hacker
+baseurl: "/TFM-Offensive-Security-IAs"
+url: "https://agentef0ns1.github.io"
