@@ -6,9 +6,9 @@ Informes ejecutivos y técnicos generados a partir de los casos de estudio del T
 
 ```
 informes/
-├── caso-1-pentesting-agentico/
-├── caso-2-superficie-ataque/
-├── caso-3-ataques-llms/
+├── caso-1-pentesting-agentico/     # incl. sub-casos MCP, LLM loader, A2A
+├── caso-2-superficie-ataque/       # incl. sub-caso permisos/skills/tools
+├── caso-3-ataques-llms/            # incl. prompt injection + Gandalf
 └── caso-4-auditorias-ia/
 ```
 

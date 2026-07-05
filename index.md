@@ -36,11 +36,17 @@ La adopción masiva de **sistemas agénticos autónomos** en entornos corporativ
 
 ### 3. Casos de estudio
 
-> Número de casos por confirmar. Se documentarán conforme se ejecuten.
+Cuatro casos principales con sub-casos de uso documentados en cada página.
 
 * [**3.1 Caso 1 — Pentesting agéntico**](./caso-1-pentesting-agentico.md)
+    * *3.1.a Arquitectura agéntica: MCP*
+    * *3.1.b Arquitectura agéntica: motor LLM local (Ollama / vLLM)*
+    * *3.1.c Arquitectura agéntica: Agent-to-Agent (A2A)*
 * [**3.2 Caso 2 — Superficie de ataque en infraestructura agéntica**](./caso-2-superficie-ataque.md)
-* [**3.3 Caso 3 — Ataques sobre LLMs**](./caso-3-ataques-llms.md) *(por confirmar)*
+    * *3.2.a Agente local: permisos, skills y tools*
+* [**3.3 Caso 3 — Ataques sobre LLMs**](./caso-3-ataques-llms.md)
+    * *3.3.a Prompt injection directa e indirecta*
+    * *3.3.b Inferencia de información (Lakera Gandalf)*
 * [**3.4 Caso 4 — IA como asistente en auditorías**](./caso-4-auditorias-ia.md) *(por confirmar)*
 
 ---
