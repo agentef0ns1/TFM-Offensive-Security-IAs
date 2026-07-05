@@ -10,4 +10,4 @@
 - Trabajo futuro
 - Contribución al máster MCAIS2
 
-[← Caso 4](./caso-4-auditorias-ia.md) · [Índice](./index.md) · [Bibliografía →](./bibliografia.md)
+[← Caso 3](./caso-3-pentesting-agentico.md) · [Índice](./index.md) · [Bibliografía →](./bibliografia.md)

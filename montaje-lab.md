@@ -10,7 +10,7 @@ Entorno **reproducible, aislado y de bajo coste** para ejecutar los casos de est
 ┌─────────────────────────────────────────────────────────────┐
 │                    LABORATORIO TFM                          │
 ├─────────────────────────────────────────────────────────────┤
-│  Agente local ◄──► LLM local (Ollama/GGUF) ◄──► MCP/Tools   │
+│  Agente local ◄──► LLM local (Ollama / LocalAI / Text-Gen / vLLM) ◄──► MCP/Tools   │
 │       │                                              │      │
 │       ▼                                              ▼      │
 │  CTF targets (Docker)                    Red aislada (lab)  │
@@ -24,6 +24,7 @@ Entorno **reproducible, aislado y de bajo coste** para ejecutar los casos de est
 | Servidor MCP de pentesting | [`tools/mcp-server/`](../tools/mcp-server/) |
 | Agente autónomo | [`tools/agent/`](../tools/agent/) |
 | Escenarios CTF | [`lab/ctf/`](../lab/ctf/) |
+| Motores LLM (PoC §3.1.2) | [`caso-1-arquitecturas-agenticas.md`](./caso-1-arquitecturas-agenticas.md) |
 | Guía de despliegue | [`lab/docs/`](../lab/docs/) |
 
 ## Despliegue
@@ -39,4 +40,4 @@ docker compose up -d
 
 *Instrucciones de despliegue en desarrollo.*
 
-[← Planificación](./planificacion.md) · [Índice](./index.md) · [Caso 1 →](./caso-1-pentesting-agentico.md)
+[← Planificación](./planificacion.md) · [Índice](./index.md) · [Caso 1 →](./caso-1-arquitecturas-agenticas.md)
