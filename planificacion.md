@@ -30,7 +30,7 @@ El TFM combina **Design Science Research** (DSR) con **sprints iterativos**. Cad
 | Fase | Sprint(s) | Actividad | Entregable | Estado |
 |------|-----------|-----------|------------|--------|
 | **F1** | S0 | Revisión bibliográfica y alcance | Capítulos 1–3 | Completado |
-| **F2** | S1 | Diseño del laboratorio | Arquitectura (§5) | En curso |
+| **F2** | S1 | Diseño del laboratorio | Arquitectura (§5) | Completado |
 | **F3** | S1–S2 | Implementación lab y herramientas | `tools/`, `lab/` | En curso |
 | **F7** | S11 | Remediación y bastionado | Contramedidas | Pendiente |
 | **F8** | S12 | Memoria final y defensa | Memoria + web | Pendiente |
@@ -105,7 +105,7 @@ Workspace: `Caso-3-Pentesting-Agentico/`
 | Título y alcance | 2026-07-03 | Completado |
 | Estado del arte | 2026-07-13 | Completado |
 | Planificación por sprints | 2026-07-13 | Completado |
-| Laboratorio operativo (S1) | — | Pendiente |
+| Laboratorio operativo (S1) | 2026-07-13 | Completado (host `Proyecto-HW/`) |
 | Caso 1 (S2–S5) | — | Pendiente |
 | Caso 2 (S6–S8) | — | Pendiente |
 | Caso 3 (S9–S10) | — | Pendiente |
