@@ -4,69 +4,47 @@
 
 **Autor:** Ildefonso González Sánchez
 
-Bienvenido a la documentación web del TFM del **Máster de Inteligencia Artificial orientado a Ciberseguridad (2.ª edición)**.
+Documentación web del TFM del **Máster de Inteligencia Artificial orientado a Ciberseguridad (2.ª edición)**. Contiene la memoria segmentada para GitHub Pages, sincronizada con el documento Word de trabajo (~80 %).
 
-El trabajo aborda la **ciberseguridad ofensiva** aplicada a sistemas de inteligencia artificial agénticos: análisis de vulnerabilidades, protocolos de interacción (tool calling, MCP), vectores de ataque y validación práctica en laboratorio.
-
----
-
-## Introducción
-
-La adopción masiva de **sistemas agénticos autónomos** en entornos corporativos ha generado una nueva superficie de ataque que los planes de estudio tradicionales aún no cubren de forma dedicada. Este TFM complementa la formación defensiva del máster con un enfoque operativo y práctico.
+El trabajo aborda la **ciberseguridad ofensiva** aplicada a sistemas de IA agénticos: vulnerabilidades, protocolos (MCP, A2A, tool calling), vectores de ataque y validación en laboratorio.
 
 ---
 
 ## Índice del TFM
 
-### 1. Marco teórico y planificación
+### 1–2. Marco
 
-* [**1.1 Introducción**](./introduccion.md)
-* [**1.2 Objetivos**](./objetivos.md)
-* [**1.3 Estado del arte**](./estado-del-arte.md)
-* [**1.4 Planificación**](./planificacion.md)
+* [**1. Introducción**](./introduccion.md) — contexto, motivación, alcance
+* [**2. Objetivos**](./objetivos.md) — general, específicos, criterios de éxito
 
----
+### 3–5. Fundamentos y laboratorio
 
-### 2. Laboratorio
+* [**3. Estado del arte**](./estado-del-arte.md) — OWASP, MITRE ATLAS, MCP/A2A, pentesting agéntico
+* [**4. Planificación**](./planificacion.md) — metodología DSR / sprints y fases
+* [**5. Montaje del laboratorio**](./montaje-lab.md) — Proyecto-HW (externo) + capa lógica TFM
 
-* [**2.1 Montaje del laboratorio (escenario)**](./montaje-lab.md)
-    * *Arquitectura, componentes y despliegue del entorno de pruebas.*
+### 6. Casos de estudio
 
----
+* [**6.1 Caso 1 — Arquitecturas agénticas**](./caso-1-arquitecturas-agenticas.md)
+    * *6.1.1 Motores LLM (Ollama, LocalAI, vLLM) · rendimiento · superficie de ataque*
+    * *6.1.2 MCP · 6.1.3 A2A · 6.1.4 Permisos, skills y tools*
+* [**6.2 Caso 2 — Ataques sobre LLMs**](./caso-2-ataques-llms.md)
+    * *Taxonomía B³ · Retos 0–10 · diseño · solución manual · Promptfoo*
+* [**6.3 Caso 3 — Pentesting agéntico**](./caso-3-pentesting-agentico.md)
+    * *Asistente (OpenWebUI, Cline, MVP) · auditorías autónomas (CAI, PortSwigger)*
 
-### 3. Casos de estudio
+### 7–8. Cierre
 
-Tres casos principales con sub-apartados documentados en cada página.
+* [**7. Conclusiones**](./conclusiones.md)
+* [**Bibliografía**](./bibliografia.md)
+* [**Repositorio y vista previa local**](./repositorio.md)
 
-* [**3.1 Caso 1 — Arquitecturas agénticas**](./caso-1-arquitecturas-agenticas.md)
-    * *3.1.1 Arquitectura agéntica: MCP*
-    * *3.1.2 Motores LLM locales — PoC por motor:*
-        * *3.1.2.1 Ollama*
-        * *3.1.2.2 LocalAI*
-        * *3.1.2.3 Text Generation WebUI (Text-Gen)*
-        * *3.1.2.4 vLLM*
-    * *3.1.3 Arquitectura agéntica: Agent-to-Agent (A2A)*
-    * *3.1.4 Agentes locales: permisos, skills y tools*
-* [**3.2 Caso 2 — Ataques sobre LLMs**](./caso-2-ataques-llms.md)
-    * *3.2.1 Prompt injection directa e indirecta*
-    * *3.2.2 Inferencia de información (Lakera Gandalf)*
-    * *3.2.3 Guardrails y Jailbreaks*
-* [**3.3 Caso 3 — Pentesting agéntico**](./caso-3-pentesting-agentico.md)
-    * *3.3.1 IA como asistente de auditorías*
-    * *3.3.2 Auditorías autónomas*
+### Tools, lab e informes
+
+* [**Herramientas (catálogo)**](./herramientas.md)
+* [Lab](https://github.com/agentef0ns1/TFM-Offensive-Security-IAs/tree/main/lab) · [Tools](https://github.com/agentef0ns1/TFM-Offensive-Security-IAs/tree/main/tools) · [Informes](https://github.com/agentef0ns1/TFM-Offensive-Security-IAs/tree/main/informes)
+* [Código en GitHub](https://github.com/agentef0ns1/TFM-Offensive-Security-IAs)
 
 ---
 
-### 4. Cierre
-
-* [**4.1 Conclusiones**](./conclusiones.md)
-* [**4.2 Bibliografía**](./bibliografia.md)
-
----
-
-## Repositorio
-
-* [Código fuente y herramientas](https://github.com/agentef0ns1/TFM-Offensive-Security-IAs/tree/main/tools)
-* [Laboratorio](https://github.com/agentef0ns1/TFM-Offensive-Security-IAs/tree/main/lab)
-
----
+*Fuente documental: `Entregable/TFM-Offensive-Security-IAs.docx` · última sync web: 2026-08-10*

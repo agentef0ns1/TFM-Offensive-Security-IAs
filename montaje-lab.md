@@ -1,98 +1,68 @@
-# 2.1 Montaje del laboratorio (escenario)
+# 5. Montaje del laboratorio (escenario)
 
-Sincronizado con la memoria del TFM (§5). *Última actualización: 2026-07-13*
+### 5.1 Objetivo del laboratorio
 
----
+Proporcionar un entorno **reproducible, aislado y de bajo coste** para ejecutar los casos de estudio del TFM: pentesting agéntico, explotación de superficie de ataque, ataques sobre LLMs y auditorías asistidas por IA.
 
-## Objetivo
+El escenario se articula en **dos capas**:
 
-Entorno **reproducible, aislado y de bajo coste** para los casos de estudio: pentesting agéntico, ataques sobre LLMs y auditorías asistidas por IA.
+1.  **Capa física — servidor de inferencia local** (`Proyecto-HW`): host Linux con GPU dedicada, ya montado y operativo.
 
-**Dos capas:**
+2. **Capa lógica — laboratorio ofensivo TFM** (`TFM-Offensive-Security-IAs`): Código desarrollado de forma explicita pra el estudio y desarrollo del proyecto, instalación de software, tools de analisis, etc.
 
-1. **Capa física** — servidor de inferencia (`Proyecto-HW/`), **operativo**.
-2. **Capa lógica** — laboratorio ofensivo TFM (agente, MCP, CTF) sobre el host.
+### 5.2 Escenario físico: `Proyecto-HW`
 
----
+El **servidor de inferencia** del TFM está implementado y **funcionando.** Se trata de un sistema de IA local de alto rendimiento y bajo coste (1800 €), diseñado para ejecutar LLMs y cargas híbridas sin dependencia de APIs cloud.
 
-## Escenario físico: Proyecto-HW
+#### Arquitectura hardware
 
-Sistema de IA local montado y funcionando en [`Proyecto-HW/`](https://github.com/agentef0ns1/blog-hw-ias). Arquitectura modular Mini PC + eGPU por OCuLink:
+Diseño modular en **dos unidades** unidas por **OCuLink** (PCIe 4.0 x4 nativo, ~64 GT/s), evitando el cuello de botella de Thunderbolt:
 
-```
-┌─────────────────────┐     OCuLink      ┌─────────────────────┐
-│  AtomMan X7 Ti      │◄──── PCIe 4.0 ────►│   Minisforum DEG1   │
-│  Core Ultra 9       │                    │  RX 7900 XTX 24GB   │
-│  32 GB DDR5 · 1TB   │                    │  Fuente 850W        │
-└─────────────────────┘                    └─────────────────────┘
-```
+    ┌─────────────────────┐     OCuLink           ┌─────────────────────┐
+    │  Minisforum AtomMan      │◄── PCIe 4.0 ──►│   Minisforum DEG1             │
+    │      X7 Ti                        	 |		          │    (Dock eGPU)                      │
+    │  • Core Ultra 9                	 |		          │  • RX 7900 XTX                     │
+    │  • 32 GB DDR5                	 |		          │  • 24 GB VRAM                     │
+    │  • 1 TB NVMe                        |     		          │  • Fuente ATX 850W           │
+    │  • NPU AI Boost                    |      		          │                                                │
+    └─────────────────────┘                                └─────────────────────┘
 
-| Componente | Modelo | Rol |
-|------------|--------|-----|
-| Mini PC | Minisforum AtomMan X7 Ti | Host Linux, orquestación |
-| Dock eGPU | Minisforum DEG1 | Puente PCIe |
-| GPU | AMD RX 7900 XTX (24 GB VRAM) | Inferencia (Ollama, ROCm) |
-| Fuente | Corsair SF850 SFX 850W | Alimentación GPU + dock |
-| Conectividad | Cable OCuLink (SFF-8611) | Enlace físico |
+| Componente       | Modelo                              | Rol                                                         |
+|------------------|-------------------------------------|-------------------------------------------------------------|
+| **Mini PC**      | Minisforum AtomMan X7 Ti            | Host Linux: SO, orquestación, preprocesado, modelos ligeros |
+| **Dock eGPU**    | Minisforum DEG1                     | Puente PCIe; aloja GPU y fuente                             |
+| **GPU**          | AMD Radeon RX 7900 XTX (24 GB VRAM) | Inferencia principal (Ollama, ROCm, llama.cpp)              |
+| **Fuente**       | Corsair SF850 SFX 850W              | Alimentación estable de GPU + dock                          |
+| **Conectividad** | Cable OCuLink (SFF-8611)            | Enlace físico Mini PC ↔ dock                                |
 
-**Capacidad:** LLMs 7B–13B en GPU pura (50–110+ tok/s); modelos 70B cuantizados en modo híbrido.
+#### Capacidad de inferencia
 
-### Documentación del montaje
+Con 24 GB de VRAM dedicados y 32 GB de RAM DDR5 (ampliable), el host soporta:
 
-El blog documenta **explícitamente** el diseño, compras, ensamblaje y puesta en marcha del servidor de inferencia:
+| Categoría          | Modelos                                         | Rendimiento orientativo                 |
+|--------------------|-------------------------------------------------|-----------------------------------------|
+| **GPU pura**       | Llama 3/3.1 8B, Mistral 7B, Gemma 2 9B, Phi-3/4 | 50–110+ tokens/seg                      |
+| **Híbrido**        | Llama 3.1 70B (Q2/Q3), Mixtral, Command R 35B   | 5–15 tokens/seg (offloading VRAM + RAM) |
+| **Límite teórico** | Llama 3.1 70B Q4, Qwen2.5 72B Q3                | 1–4 tokens/seg (swap NVMe)              |
 
-### [**Proyecto HW IA Local Bajo Coste**](https://agentef0ns1.github.io/blog-hw-ias/)
+La capacidad de inferencia se analiza en el 6.1.1-Motores-LLM-locales en si apartado benchmark, donse se comparan de forma explicaita las respuestas de un modelo en diferentes Motores de LLM
 
-Incluye objetivos, arquitectura, componentes, presupuesto, rendimiento estimado, galería y vídeos de funcionamiento.
+#### Software auxiliar en `Proyecto-HW`
 
-Auxiliar en el host: `screen.py` + `atomman.service` (panel de monitorización; no requerido para los casos §6).
+| Elemento                             | Función                                                                                                          |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| `screen.py`                          | Panel de estado del Mini PC (GPU, red, fecha/hora, clima) vía pantalla serial AtomMan                            |
+| `systemd/atomman.service`            | Servicio systemd del panel de monitorización                                                                     |
+| `scripts/install-atomman-service.sh` | Instalación del servicio en el host                                                                              |
+| Inference-Monitor                    | Docker con servicio web que monitoriza, el estado de HW y rendimiento en tiempo real del servidor de inferencia. |
 
----
+> El panel AtomMan es **auxiliar de monitorización** del host, no interviene en la lógica agéntica ni en los casos de estudio ofensivos se enecarga de monitorizar y actualizar mediante scripts en el sistema operativo y llamdas a las APIs metorológicas los datos de la pantalla LCD del dispositivo:
 
-## Arquitectura lógica del laboratorio TFM
+El **monitor de del servidor de inferecncia**, se encarga de mostrar en tiempo real el estado del sistema, así como los Modelos de LLM disponibles y el manejo de los servicio de lso motores de LLM.
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    LABORATORIO TFM                          │
-├─────────────────────────────────────────────────────────────┤
-│  Agente local ◄──► LLM local (Ollama) ◄──► MCP / Tools      │
-│       │                                              │      │
-│       ▼                                              ▼      │
-│  CTF targets (Docker)                    Red aislada (lab)  │
-└─────────────────────────────────────────────────────────────┘
-```
+**Proyecto HW IA Local Bajo Coste — blog-hw-ias**
 
----
-
-## Componentes software
-
-| Componente | Ubicación |
-|------------|-----------|
-| Motor LLM | Ollama (+ LocalAI, Text-Gen, vLLM — [Caso 1](./caso-1-arquitecturas-agenticas.md)) |
-| Agente | [`tools/agent/`](../tools/agent/) |
-| Servidor MCP | [`tools/mcp-server/`](../tools/mcp-server/) |
-| CTF | [`lab/ctf/`](../lab/ctf/) |
-| Scripts motores LLM | `Caso-1-Arquitecturas-Agenticas/6.1.2-Motores-LLM-locales/scripts/` |
-
----
-
-## Despliegue
-
-```bash
-# Host de inferencia configurado según:
-# https://agentef0ns1.github.io/blog-hw-ias/
-
-git clone https://github.com/agentef0ns1/TFM-Offensive-Security-IAs.git
-cd TFM-Offensive-Security-IAs/lab
-docker compose up -d
-```
-
----
-
-## Seguridad del laboratorio
-
-- Red aislada; datos sintéticos; alcance ético documentado.
-- Hardening del motor LLM (binding, sin exposición LAN) — ver §6.1.2.
+*visitar: <https://agentef0ns1.github.io/blog-hw-ias/>*
 
 ---
 

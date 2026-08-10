@@ -1,8 +1,16 @@
-# Servicios del laboratorio TFM
-# En desarrollo — descomentar y completar conforme se implementen los CTFs
+# Orquestación ligera del repo web.
+# Los labs productivos viven en Casos y MASTER/Tools/* (ver lab/README.md).
+# Descomentar/añadir servicios solo si se empaquetan aquí para demos.
 
 services: {}
 
-#  lab-network:
-#    driver: bridge
-#    internal: true
+# Ejemplo futuro (no activo):
+# services:
+#   inference-monitor:
+#     # build: .../6.1.1-Motores-LLM-locales/inference-monitor
+#     ports: ["8501:8501"]
+#
+# networks:
+#   lab-network:
+#     driver: bridge
+#     internal: true

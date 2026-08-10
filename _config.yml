@@ -5,16 +5,22 @@ google_analytics:
 theme: jekyll-theme-hacker
 baseurl: "/TFM-Offensive-Security-IAs"
 url: "https://agentef0ns1.github.io"
+lang: es
 
 exclude:
   - tools
   - lab
   - informes
   - Gemfile
+  - Gemfile.lock
   - jekyll-theme-hacker.gemspec
   - LICENSE
   - .gitignore
   - README.md
+  - scripts
+  - vendor
+  - node_modules
+  - .bundle
 
 sass:
   style: compressed

@@ -1,3 +1,42 @@
+# 3. Estado del arte
+
+Revisión bibliográfica y de fuentes abiertas sobre seguridad ofensiva en sistemas de IA agénticos. Sincronizado con la memoria del TFM (§3) y el documento Word (2026-08). *Última actualización: 2026-08-10*
+
+---
+
+## Panorama del documento (2025–2026)
+
+En el año en el que se cursa el Master 2025-2026, el siguiente diagrama cumple con una visión global de los modelos de inteligencia artificial disponibles. La división de que se raliza es simple modelos open-source vs modelos frontier, de APIs y pago por uso.
+
+Por cada compañía relevante, se muestra la familia de LLMs, seguido de sus últimas y mas conocidas versiones.
+
+En algunos casos, existen compañias que tienen dos modalidades, liberan un versión pública opne-source de sus modelos pero mantieen una o varias familias de modelos frontier, que es de donde realemnte se obtiene rentabilidad económica el pago por uso de APIs mediante el consumo de tokens.
+
+La evoluciones importantes de la IA durante el último año, son muchas y muy relevantes, las noticias se generar a un ritmo vertiginoso y con total seguridad desde que se desarrolle el TFM, hasta que sea expueto el ecosistema habra evolucionado, por lo que requiere de una atención constante.  
+En lineas generales la tendencia de evolución se peude definir en cuatro pilares princiaples:
+
+- Modelos: tienden a un mayor autonomia, razonamiento y nivel de coberseguridad capacida ofensiva y defensiva, han salido modelos relevantes como GTP-5.x, Qwen 3.2, Mythos...
+
+- Arquitectura: A nivel arquitectura los modelos han dejado de ser simplemente un LLM, sino que se mueven, en dirección al agente con capacidades de ejecución mediante tool calling, memoria de contexto propia y orquestación multipaso, lo que multiplica la superficie de ataque respecto a un LLM aislado.
+
+- Protocolos: Los protocolos de comunicación entre las IA agenticas hen evolucionado en dos direcciones principales, servidores con protocolo MCP (Model Context Protocol) y comunicación A2A (Agent to Agent).
+
+- Regulación: Esta evolución incipiente, obliga a una mayor robustez en la supervisión humana, de la ciberseguridad, a nivel regulatorio remarcar la Ley de IA de la Union Euoropea en (Agosto de 2026) y el plan de acción de la Union Europea de cibersguridad e IA en (Julio de 2026).
+
+---
+
+## Líneas abiertas de investigación
+
+| Línea                            | Pregunta de investigación                                                                                                                  |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Protocolos agénticos             | Tras estudiar e investigar los protocolo de comunicación agenticos ¿Cómo explotar y remediar MCP/A2A en entorno local?                     |
+| Motores locales                  | Tras entender e investigar los Motores locales ¿Cuál es la postura de seguridad por defecto de Ollama/LocalAI/vLLM?                        |
+| Ataques sobre LLM                | Tras investigar el funcionamiento de los LLMs en la actualidad ¿Qué técnicas evaden guardrails actuales?                                   |
+| Ataques sobre sistemas agénticos | Tras invesigar y entender los agentes locales ¿ Que técnicas se pueden utilizar para explotar, el funcionmianto de agentes locales ?       |
+| Pentesting agéntico              | ¿Hasta qué punto un agente local puede sustituir al auditor humano? ¿Que riesgos corremos al permitir que un agente realice una auditoría? |
+
+---
+
 # 1.3 Estado del arte
 
 Revisión bibliográfica y de fuentes abiertas sobre seguridad ofensiva en sistemas de IA agénticos. Sincronizado con la memoria del TFM (§3).
@@ -20,6 +59,9 @@ El lanzamiento restringido de **Mythos Preview** (Anthropic, abril 2026) subraya
 ---
 
 ## 3.1 Seguridad en sistemas de IA y LLMs
+
+> Además de OWASP/MITRE, este TFM emplea la **taxonomía B³** (Behavior, Bypass & Breach) para clasificar ataques sobre LLMs y sistemas agénticos (detalle en [Caso 2](./caso-2-ataques-llms.md)).
+
 
 ### Marco OWASP
 
