@@ -16,18 +16,6 @@ El siguiente diagrama resume la visión global utilizada en la memoria: por comp
 ![LLM Ecosystem Landscape — agosto 2026]({{ '/assets/images/docx/image1.png' | relative_url }})
 <p class="figcap">Figura — Ecosistema LLM (open-weight vs. API de pago), agosto 2026. Fuente: memoria TFM v1.0.</p>
 
-Detalle por modalidad (mapas de genealogía generados para el estado del arte):
-
-![Open-weight LLMs — Company → Family → Models]({{ '/assets/images/estado-del-arte/map1_open_a3.png' | relative_url }})
-<p class="figcap">Figura — Open-weight: compañía → familia → modelos (A3). Pesos descargables; las licencias no siempre son OSI open source.</p>
-
-![Paid API / per-token LLMs — Company → Family → Models]({{ '/assets/images/estado-del-arte/map2_api_a3.png' | relative_url }})
-<p class="figcap">Figura — API de pago / por token: compañía → familia → modelos (A3). Inferencia alojada por el proveedor.</p>
-
-Vista combinada compacta (A4):
-
-![Mapa combinado open-weight + API]({{ '/assets/images/estado-del-arte/map_combined_a4.png' | relative_url }})
-<p class="figcap">Figura — Vista combinada A4: open-weight (arriba) y API de pago (abajo), nivel compañía → familia.</p>
 
 La evolución es rápida: entre el desarrollo del TFM y su exposición pública el ecosistema habrá cambiado. Cuatro pilares resumen la tendencia:
 

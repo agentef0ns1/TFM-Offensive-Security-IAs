@@ -262,5 +262,12 @@ Un LLM evalúa de forma autónoma cada reto. Tres modalidades:
 | **Redteam remoto** | Plataforma Promptfoo genera los prompts de ataque |
 
 Las capturas de resultados estáticos están **integradas en cada reto** (§6.2.2), una por reto (imágenes 54–64 del documento).
+
+Ejecución de Promptfoo para la solución automatizada de los retos:
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/WGViOPk3BY4" title="Promptfoo — solución automatizada de retos" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Promptfoo — solución automatizada de retos — <a href="https://youtu.be/WGViOPk3BY4">YouTube</a></p>
 <p class="nav-footer"><a href="{{ '/caso-1-arquitecturas-agenticas.html' | relative_url }}">← Caso 1</a> · <a href="{{ '/' | relative_url }}">Índice</a> · <a href="{{ '/caso-3-pentesting-agentico.html' | relative_url }}">Caso 3 →</a></p>
 
