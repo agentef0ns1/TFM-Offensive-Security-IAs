@@ -1,5 +1,3 @@
-# Estudio de vulnerabilidades y protocolos de seguridad en sistemas de inteligencia artificial agénticos
-
 **Trabajo Fin de Máster — MCAIS2** · **Autor:** Ildefonso González Sánchez
 
 <p><span class="pill">v1.0</span> <span class="pill">MCAIS2</span> <span class="pill">lab local</span> <span class="pill">ofensivo</span></p>
@@ -39,10 +37,14 @@ Fuente canónica: `TFM-Offensive-Security-IAs_v1.0.docx`. Esta web reproduce el 
 8. [Bibliografía]({{ '/bibliografia.html' | relative_url }})
 9. [Repositorio]({{ '/repositorio.html' | relative_url }})
 
-## Demos en vídeo (del documento)
+## Servidor de inferencia del laboratorio
 
-- [Ollama RCE](https://www.youtube.com/watch?v=v46kJyIy9KQ)
-- [A2A spoofing](https://www.youtube.com/watch?v=ldbxnRV__Ns)
-- [Surface Auditor](https://www.youtube.com/watch?v=k7eNc1mPccc)
-- [CAI local](https://www.youtube.com/watch?v=iKfAk7cQ7o8)
-- [BSCP 24×7](https://www.youtube.com/watch?v=RgUM4ZRogNE)
+Todo el contenido del laboratorio se ha realizado sobre el siguiente **servidor de inferencia**, montado de forma explícita e íntegra para el TFM (AtomMan X7 Ti + GPU AMD RX 7900 XTX vía OCuLink).
+
+![Servidor de inferencia del TFM]({{ '/assets/images/docx/image3.png' | relative_url }})
+<p class="figcap">Servidor de inferencia local del laboratorio — Minisforum AtomMan X7 Ti y eGPU AMD Radeon RX 7900 XTX. Detalle en <a href="{{ '/montaje-lab.html' | relative_url }}">§5 Montaje del laboratorio</a>.</p>
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/Op__mTqt7j0" title="Servidor de inferencia del TFM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Vídeo del servidor de inferencia — <a href="https://www.youtube.com/watch?v=Op__mTqt7j0">YouTube</a></p>
