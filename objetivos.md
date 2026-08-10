@@ -1,5 +1,12 @@
 # 2. Objetivos
 
+## Índice {#indice}
+
+  - [2.1 Objetivo general](#21-objetivo-general)
+  - [2.2 Objetivos específicos](#22-objetivos-especificos)
+  - [2.3 Criterios de éxito](#23-criterios-de-exito)
+
+---
 ### 2.1 Objetivo general
 
 Diseñar, implementar y documentar un marco de **ciberseguridad ofensiva aplicada a sistemas de inteligencia artificial**, con análisis de vulnerabilidades, protocolos agénticos y validación práctica en laboratorio — complemento formativo del MCAIS2.
@@ -20,10 +27,5 @@ Diseñar, implementar y documentar un marco de **ciberseguridad ofensiva aplicad
 - Casos de estudio con informes y evidencias.
 - Repositorio público con herramientas y web.
 - Memoria coherente con la estructura académica del máster.
+<p class="nav-footer"><a href="{{ '/introduccion.html' | relative_url }}">← Introducción</a> · <a href="{{ '/' | relative_url }}">Índice</a> · <a href="{{ '/estado-del-arte.html' | relative_url }}">Estado del arte →</a></p>
 
-
-<div class="nav-footer">
-
-[← Introducción](./introduccion.md) · [Índice](./index.md) · [Estado del arte →](./estado-del-arte.md)
-
-</div>

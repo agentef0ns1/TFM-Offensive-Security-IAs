@@ -1,5 +1,12 @@
 # 1. Introducción
 
+## Índice {#indice}
+
+  - [1.1 Contexto](#11-contexto)
+  - [1.2 Motivación](#12-motivacion)
+  - [1.3 Alcance y limitaciones](#13-alcance-y-limitaciones)
+
+---
 ### 1.1 Contexto
 
 La Inteligencia Artificial, y en particular el despliegue de **sistemas agénticos autónomos** en entornos corporativos, ha transformado la superficie de ataque de las organizaciones.
@@ -28,10 +35,5 @@ Este TFM cubre esa brecha con un módulo académico complementario: análisis pr
 
 - Laboratorio en entorno controlado.
 - Modelos locales con menor capacidad de razonamiento/cómputo por hardware.
+<p class="nav-footer"><a href="{{ '/' | relative_url }}">Índice</a> · <a href="{{ '/objetivos.html' | relative_url }}">Objetivos →</a></p>
 
-
-<div class="nav-footer">
-
-[Índice](./index.md) · [Índice](./index.md) · [Objetivos →](./objetivos.md)
-
-</div>

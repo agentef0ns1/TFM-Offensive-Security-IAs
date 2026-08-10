@@ -94,3 +94,16 @@ figcaption, .figcap {
   padding-top: 1rem;
   border-top: 1px solid #30363d;
 }
+
+/* TOC */
+#índice + ul,
+#indice + ul,
+h2#índice + ul,
+h2#indice + ul {
+  margin-top: 0.5rem;
+}
+
+h2#índice,
+h2#indice {
+  margin-top: 1.25rem;
+}

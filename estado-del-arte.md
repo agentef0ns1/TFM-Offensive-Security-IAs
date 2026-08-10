@@ -1,6 +1,33 @@
 # 3. Estado del arte
 
-En el curso del máster **2025–2026**, el panorama de modelos se divide de forma operativa en **open-source** frente a **frontier** (APIs de pago por tokens). Cada compañía relevante publica familias y versiones; algunas mantienen ambas modalidades.
+## Índice {#indice}
+
+  - [Paisaje de modelos (agosto 2026)](#paisaje-de-modelos-agosto-2026)
+  - [Marcos normativos](#marcos-normativos)
+  - [Líneas abiertas de investigación](#lineas-abiertas-de-investigacion)
+
+---
+En el curso del máster **2025–2026**, el panorama de modelos se divide de forma operativa en **open-weight** (pesos descargables) frente a **frontier / API de pago por tokens**. Cada compañía relevante publica familias y versiones; algunas mantienen ambas modalidades.
+
+### Paisaje de modelos (agosto 2026)
+
+El siguiente diagrama resume la visión global utilizada en la memoria: por compañía, familia de LLMs y versiones más conocidas.
+
+![LLM Ecosystem Landscape — agosto 2026]({{ '/assets/images/docx/image1.png' | relative_url }})
+<p class="figcap">Figura — Ecosistema LLM (open-weight vs. API de pago), agosto 2026. Fuente: memoria TFM v1.0.</p>
+
+Detalle por modalidad (mapas de genealogía generados para el estado del arte):
+
+![Open-weight LLMs — Company → Family → Models]({{ '/assets/images/estado-del-arte/map1_open_a3.png' | relative_url }})
+<p class="figcap">Figura — Open-weight: compañía → familia → modelos (A3). Pesos descargables; las licencias no siempre son OSI open source.</p>
+
+![Paid API / per-token LLMs — Company → Family → Models]({{ '/assets/images/estado-del-arte/map2_api_a3.png' | relative_url }})
+<p class="figcap">Figura — API de pago / por token: compañía → familia → modelos (A3). Inferencia alojada por el proveedor.</p>
+
+Vista combinada compacta (A4):
+
+![Mapa combinado open-weight + API]({{ '/assets/images/estado-del-arte/map_combined_a4.png' | relative_url }})
+<p class="figcap">Figura — Vista combinada A4: open-weight (arriba) y API de pago (abajo), nivel compañía → familia.</p>
 
 La evolución es rápida: entre el desarrollo del TFM y su exposición pública el ecosistema habrá cambiado. Cuatro pilares resumen la tendencia:
 
@@ -29,10 +56,4 @@ La evolución es rápida: entre el desarrollo del TFM y su exposición pública 
 | Ataques sobre LLM | ¿Qué técnicas evaden guardrails actuales? |
 | Ataques sobre agentes | ¿Qué técnicas explotan el funcionamiento de agentes locales? |
 | Pentesting agéntico | ¿Hasta qué punto un agente local sustituye al auditor humano? ¿Qué riesgos implica? |
-
-
-<div class="nav-footer">
-
-[← Objetivos](./objetivos.md) · [Índice](./index.md) · [Planificación →](./planificacion.md)
-
-</div>
+<p class="nav-footer"><a href="{{ '/objetivos.html' | relative_url }}">← Objetivos</a> · <a href="{{ '/' | relative_url }}">Índice</a> · <a href="{{ '/planificacion.html' | relative_url }}">Planificación →</a></p>

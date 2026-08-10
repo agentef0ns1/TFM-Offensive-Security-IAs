@@ -1,5 +1,11 @@
 # Repositorio GitHub asociado
 
+## Índice {#indice}
+
+  - [Vista previa Jekyll en local](#vista-previa-jekyll-en-local)
+  - [Despliegue](#despliegue)
+
+---
 | Recurso | URL |
 |---------|-----|
 | **Repo** | <https://github.com/agentef0ns1/TFM-Offensive-Security-IAs.git> |
@@ -22,9 +28,5 @@ bundle exec jekyll serve --livereload
 GitHub Pages → branch `main` → folder `/ (root)`.
 
 ---
+<p class="nav-footer"><a href="{{ '/bibliografia.html' | relative_url }}">← Bibliografía</a> · <a href="{{ '/' | relative_url }}">Índice</a></p>
 
-<div class="nav-footer">
-
-[← Bibliografía](./bibliografia.md) · [Índice](./index.md)
-
-</div>

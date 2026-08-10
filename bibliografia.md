@@ -1,5 +1,11 @@
 # Bibliografía
 
+## Índice {#indice}
+
+  - [Referencias iniciales](#referencias-iniciales)
+  - [Plantilla APA 7](#plantilla-apa-7)
+
+---
 Formato **APA 7.ª edición**. Sección ampliable durante el desarrollo del estado del arte.
 
 ### Referencias iniciales
@@ -33,9 +39,5 @@ Comisión Europea. (2026). *Plan de Acción de ciberseguridad e IA*. <https://di
 **Software:** Apellido, A. A. (Año). *Título* (Versión x.x) [Código informático]. GitHub. URL
 
 ---
+<p class="nav-footer"><a href="{{ '/conclusiones.html' | relative_url }}">← Conclusiones</a> · <a href="{{ '/' | relative_url }}">Índice</a> · <a href="{{ '/repositorio.html' | relative_url }}">Repositorio →</a></p>
 
-<div class="nav-footer">
-
-[← Conclusiones](./conclusiones.md) · [Índice](./index.md) · [Repositorio →](./repositorio.md)
-
-</div>

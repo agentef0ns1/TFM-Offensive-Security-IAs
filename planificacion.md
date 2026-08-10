@@ -1,5 +1,15 @@
 # 4. Planificación
 
+## Índice {#indice}
+
+  - [4.1 Metodología](#41-metodologia)
+  - [4.2 Fases del proyecto](#42-fases-del-proyecto)
+    - [4.2.1 Fases transversales](#421-fases-transversales)
+    - [4.2.2 Caso 1 — Arquitecturas agénticas](#422-caso-1-arquitecturas-agenticas)
+    - [4.2.3 Caso 2 — Ataques sobre LLMs](#423-caso-2-ataques-sobre-llms)
+    - [4.2.4 Caso 3 — Pentesting agéntico](#424-caso-3-pentesting-agentico)
+
+---
 ### 4.1 Metodología
 
 El TFM combina **Design Science Research** (DSR) adaptado a ingeniería de seguridad con una **metodología iterativa por sprints**. Cada sprint produce un entregable verificable (informe, PoC, parche o documentación web) y alimenta el siguiente ciclo con retroalimentación de los hallazgos ofensivos y defensivos.
@@ -58,9 +68,6 @@ El TFM combina **Design Science Research** (DSR) adaptado a ingeniería de segur
 |----------|---------------------|----------------------------|--------------------------------------------------------------------------|
 | **F6.1** | Estudio + Ejecución | 6.3.1 IA asistente         | OpenWebUI y MVP análisis de código                                       |
 | **F6.2** | Estudio + Ejecución | 6.3.2 Auditorías autónomas | Estudios y desarrollo de pruebas aautónomas Challenge BSCP 24x7 Local-AI |
+<p class="nav-footer"><a href="{{ '/estado-del-arte.html' | relative_url }}">← Estado del arte</a> · <a href="{{ '/' | relative_url }}">Índice</a> · <a href="{{ '/montaje-lab.html' | relative_url }}">Montaje lab →</a></p>
 
-<div class="nav-footer">
 
-[← Estado del arte](./estado-del-arte.md) · [Índice](./index.md) · [Montaje lab →](./montaje-lab.md)
-
-</div>

@@ -1,5 +1,14 @@
 # 5. Montaje del laboratorio (escenario)
 
+## Índice {#indice}
+
+  - [5.1 Objetivo del laboratorio](#51-objetivo-del-laboratorio)
+  - [5.2 Escenario físico: Proyecto-HW](#52-escenario-fisico-proyecto-hw)
+    - [Arquitectura hardware](#arquitectura-hardware)
+    - [Capacidad de inferencia](#capacidad-de-inferencia)
+    - [Software auxiliar](#software-auxiliar)
+
+---
 ### 5.1 Objetivo del laboratorio
 
 Entorno **reproducible, aislado y de bajo coste** para pentesting agéntico, superficie de ataque, ataques sobre LLMs y auditorías asistidas por IA.
@@ -42,7 +51,7 @@ Diseño modular en dos unidades unidas por **OCuLink** (PCIe 4.0 x4):
 | Híbrido | Llama 3.1 70B (Q2/Q3), Mixtral, Command R 35B | 5–15 tok/s |
 | Límite | Llama 3.1 70B Q4, Qwen2.5 72B Q3 | 1–4 tok/s |
 
-La comparación entre motores se detalla en [§6.1](./caso-1-arquitecturas-agenticas.md) (benchmark).
+La comparación entre motores se detalla en [§6.1]({{ '/caso-1-arquitecturas-agenticas.html' | relative_url }}) (benchmark).
 
 #### Software auxiliar
 
@@ -58,11 +67,6 @@ La comparación entre motores se detalla en [§6.1](./caso-1-arquitecturas-agent
 Blog del montaje físico: [Proyecto HW IA Local Bajo Coste](https://agentef0ns1.github.io/blog-hw-ias/)
 
 </div>
+<p class="nav-footer"><a href="{{ '/planificacion.html' | relative_url }}">← Planificación</a> · <a href="{{ '/' | relative_url }}">Índice</a> · <a href="{{ '/caso-1-arquitecturas-agenticas.html' | relative_url }}">Caso 1 →</a></p>
 
 
-
-<div class="nav-footer">
-
-[← Planificación](./planificacion.md) · [Índice](./index.md) · [Caso 1 →](./caso-1-arquitecturas-agenticas.md)
-
-</div>
