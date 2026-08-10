@@ -1,6 +1,6 @@
 # 7. Conclusiones
 
-*(Se redactará al finalizar los casos de estudio. Estructura prevista:)*
+*(Se redactará al finalizar los casos de estudio. Estructura prevista en el documento v1.0:)*
 
 ### 7.1 Cumplimiento de objetivos
 
@@ -20,4 +20,8 @@ Síntesis de cómo el TFM complementa la formación defensiva del MCAIS2 con com
 
 ---
 
+<div class="nav-footer">
+
 [← Caso 3](./caso-3-pentesting-agentico.md) · [Índice](./index.md) · [Bibliografía →](./bibliografia.md)
+
+</div>

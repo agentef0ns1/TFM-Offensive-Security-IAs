@@ -1,6 +1,6 @@
 # Bibliografía
 
-> Formato **APA 7.ª edición**. Esta sección se ampliará durante el desarrollo del estado del arte.
+Formato **APA 7.ª edición**. Sección ampliable durante el desarrollo del estado del arte.
 
 ### Referencias iniciales
 
@@ -22,18 +22,20 @@ Cloud Security Alliance. (2026). *MCP Security Crisis: Systemic Design Flaws in 
 
 Comisión Europea. (2026). *Plan de Acción de ciberseguridad e IA*. <https://digital-strategy.ec.europa.eu/>
 
-### Plantilla APA 7 para nuevas referencias
+### Plantilla APA 7
 
-**Artículo de revista:** Apellido, A. A., & Apellido, B. B. (Año). Título del artículo. *Nombre de la Revista*, *volumen*(número), pp–pp. <https://doi.org/xx.xxx/yyyy>
+**Artículo:** Apellido, A. A., & Apellido, B. B. (Año). Título. *Revista*, *volumen*(número), pp–pp. <https://doi.org/…>
 
-**Libro:** Apellido, A. A. (Año). *Título del libro* (edición). Editorial.
+**Libro:** Apellido, A. A. (Año). *Título* (ed.). Editorial.
 
-**Web:** Apellido, A. A. (Año, mes día). Título de la página. *Nombre del sitio*. URL
+**Web:** Apellido, A. A. (Año, mes día). Título. *Sitio*. URL
 
-**Software / repositorio:** Apellido, A. A. (Año). *Título del software* (Versión x.x) \[Código informático\]. GitHub. URL
-
-*Documento maestro de la memoria del TFM. Mantener sincronizado con* `TFM-Offensive-Security-IAs/` *(web Jekyll). Última revisión: 2026-07-13 (§4 planificación por sprints).*
+**Software:** Apellido, A. A. (Año). *Título* (Versión x.x) [Código informático]. GitHub. URL
 
 ---
 
-[← Conclusiones](./conclusiones.md) · [Índice](./index.md) · [Índice](./index.md)
+<div class="nav-footer">
+
+[← Conclusiones](./conclusiones.md) · [Índice](./index.md) · [Repositorio →](./repositorio.md)
+
+</div>

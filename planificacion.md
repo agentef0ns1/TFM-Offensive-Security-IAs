@@ -59,6 +59,8 @@ El TFM combina **Design Science Research** (DSR) adaptado a ingeniería de segur
 | **F6.1** | Estudio + Ejecución | 6.3.1 IA asistente         | OpenWebUI y MVP análisis de código                                       |
 | **F6.2** | Estudio + Ejecución | 6.3.2 Auditorías autónomas | Estudios y desarrollo de pruebas aautónomas Challenge BSCP 24x7 Local-AI |
 
----
+<div class="nav-footer">
 
 [← Estado del arte](./estado-del-arte.md) · [Índice](./index.md) · [Montaje lab →](./montaje-lab.md)
+
+</div>

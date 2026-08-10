@@ -1,5 +1,5 @@
 title: TFM — Seguridad Ofensiva en Sistemas de IA Agénticos
-description: Estudio de vulnerabilidades y protocolos de seguridad en sistemas de inteligencia artificial agénticos — MCAIS2 2.ª edición.
+description: Estudio de vulnerabilidades y protocolos de seguridad en sistemas de inteligencia artificial agénticos — MCAIS2 · documento v1.0.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
@@ -8,19 +8,19 @@ url: "https://agentef0ns1.github.io"
 lang: es
 
 exclude:
-  - tools
-  - lab
-  - informes
   - Gemfile
   - Gemfile.lock
   - jekyll-theme-hacker.gemspec
   - LICENSE
   - .gitignore
   - README.md
-  - scripts
   - vendor
   - node_modules
   - .bundle
+  - tools
+  - lab
+  - informes
+  - scripts
 
 sass:
   style: compressed
