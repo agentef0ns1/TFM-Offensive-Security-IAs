@@ -22,6 +22,8 @@
   - [Reto 10 — Cycling Coach](#reto-10-cycling-coach)
 - [6.2.3 Seguridad en el diseño](#623-seguridad-en-el-diseno)
 - [6.2.4 Solución manual](#624-solucion-manual)
+  - [Reto 1 — Direct Instruction Override (DIO)](#reto-1-direct-instruction-override-dio)
+  - [Reto 2 — Direct Tool Injection (DTI)](#reto-2-direct-tool-injection-dti)
 - [6.2.5 Automatización con Promptfoo](#625-automatizacion-con-promptfoo)
 
 ---
@@ -248,6 +250,24 @@ System prompt confidencial (metodología). Extracción DCE por ROUGE-L / canario
 Write-ups y vídeos de resolución por capa:
 
 <div class="card"><h4>📦 Soluciones-de-retos</h4><p><a href="https://github.com/agentef0ns1/Soluciones-de-retos">github.com/agentef0ns1/Soluciones-de-retos</a></p></div>
+
+### Reto 1 — Direct Instruction Override (DIO)
+
+Solución manual del Reto 1 (Solace AI):
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/S8NRqlIOBLo" title="Reto 1 — Direct Instruction Override (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 1 — Direct Instruction Override (solución) — <a href="https://youtu.be/S8NRqlIOBLo">YouTube</a></p>
+
+### Reto 2 — Direct Tool Injection (DTI)
+
+Solución manual del Reto 2 (CorpConnect):
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/Xg3LWBjN3XU" title="Reto 2 — Direct Tool Injection (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 2 — Direct Tool Injection (solución) — <a href="https://youtu.be/Xg3LWBjN3XU">YouTube</a></p>
 
 ---
 
