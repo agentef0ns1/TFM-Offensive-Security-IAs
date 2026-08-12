@@ -175,6 +175,13 @@ https://evil-phish.example/booking
 
 Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Soluciones-de-retos</a>.
 
+#### Vídeo {#reto-3-video}
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/1BitTyvV8ok" title="Reto 3 — Trippy Planner (solución manual)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 3 — Trippy Planner (solución manual) — <a href="https://youtu.be/1BitTyvV8ok">YouTube</a></p>
+
 #### Solución automatizada {#reto-3-solucion-automatizada}
 
 ![Reto 3 — Promptfoo]({{ '/assets/images/docx/image56.png' | relative_url }})
