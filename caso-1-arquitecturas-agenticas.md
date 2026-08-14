@@ -18,7 +18,7 @@
 ---
 **Objetivo:** documentar y analizar las **arquitecturas agénticas locales**: motores de inferencia, protocolos de integración (tools, MCP, A2A) y el modelo operativo del agente (permisos, *skills*, *tools*).
 
-**Alcance:** todo lo desplegado y evaluado en el laboratorio del §5.
+**Alcance:** todo lo desplegado y evaluado en el laboratorio del apartado 5.
 
 
 <div class="card"><h4>6.1.2 MCP</h4><p>stdio / SSE / HTTP · Inspector · MitM</p></div>

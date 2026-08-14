@@ -4,7 +4,7 @@ Prueba de concepto del protocolo **Agent-to-Agent (A2A)** con Ollama local: Invo
 
 | Campo | Valor |
 |-------|-------|
-| **Caso TFM** | §6.1.3 — Agent-to-Agent (A2A) |
+| **Caso TFM** | 6.1.3 — Agent-to-Agent (A2A) |
 | **Repo** | [github.com/agentef0ns1/A2A-security-lab](https://github.com/agentef0ns1/A2A-security-lab) |
 | **Árbol local** | `MASTER/Tools/PoC-A2A` |
 | **Árbol Caso** | `Caso-1-Arquitecturas-Agenticas/6.1.3-A2A/PoC-A2A/` |

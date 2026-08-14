@@ -3,12 +3,13 @@
 ## Índice {#indice}
 
   - [Referencias iniciales](#referencias-iniciales)
+  - [Herramientas y plataformas](#herramientas-y-plataformas)
   - [Plantilla APA 7](#plantilla-apa-7)
 
 ---
 Formato **APA 7.ª edición**. Sección ampliable durante el desarrollo del estado del arte.
 
-### Referencias iniciales
+### Referencias iniciales {#referencias-iniciales}
 
 OWASP Foundation. (s. f.). *OWASP Artificial Intelligence Security Verification Standard (AISVS)*. <https://owasp.org/www-project-artificial-intelligence-security-verification-standard-aisvs-docs/>
 
@@ -28,7 +29,43 @@ Cloud Security Alliance. (2026). *MCP Security Crisis: Systemic Design Flaws in 
 
 Comisión Europea. (2026). *Plan de Acción de ciberseguridad e IA*. <https://digital-strategy.ec.europa.eu/>
 
-### Plantilla APA 7
+### Herramientas y plataformas {#herramientas-y-plataformas}
+
+#### Lakera (inspiración de los retos / Agent Breaker)
+
+Lakera. (s. f.-a). *Gandalf*. <https://gandalf.lakera.ai/>
+
+Lakera. (s. f.-b). *Gandalf: Agent Breaker*. <https://gandalf.lakera.ai/agent-breaker/>
+
+Lakera. (s. f.-c). *Indirect prompt injection: The hidden threat breaking modern AI systems*. <https://www.lakera.ai/blog/indirect-prompt-injection>
+
+#### Promptfoo (automatización de evaluación y red teaming)
+
+Promptfoo. (s. f.-a). *Promptfoo: LLM evaluation and red teaming* [Software]. <https://www.promptfoo.dev/>
+
+Promptfoo. (s. f.-b). *How to red team LLM applications*. <https://www.promptfoo.dev/docs/guides/llm-redteaming/>
+
+Promptfoo. (s. f.-c). *promptfoo/promptfoo* [Repositorio]. GitHub. <https://github.com/promptfoo/promptfoo>
+
+#### PortSwigger (retos Web Security Academy, MCP Burp y automatización)
+
+PortSwigger Ltd. (s. f.-a). *Web Security Academy*. <https://portswigger.net/web-security>
+
+PortSwigger Ltd. (s. f.-b). *Burp Suite*. <https://portswigger.net/burp>
+
+PortSwigger Ltd. (s. f.-c). *MCP Server* [Extensión de Burp Suite / BApp Store]. <https://portswigger.net/bappstore/9952290f04ed4f628e624d0aa9dccebc>
+
+PortSwigger. (s. f.-d). *mcp-server* [Repositorio]. GitHub. <https://github.com/PortSwigger/mcp-server>
+
+#### Kali Linux (MCP / wrapper para pentesting agéntico)
+
+Offensive Security. (s. f.-a). *Kali Linux*. <https://www.kali.org/>
+
+Offensive Security. (s. f.-b). *mcp-kali-server* [Herramienta]. Kali Linux Tools. <https://www.kali.org/tools/mcp-kali-server/>
+
+Wh0am123. (s. f.). *MCP-Kali-Server* [Repositorio]. GitHub. <https://github.com/Wh0am123/MCP-Kali-Server>
+
+### Plantilla APA 7 {#plantilla-apa-7}
 
 **Artículo:** Apellido, A. A., & Apellido, B. B. (Año). Título. *Revista*, *volumen*(número), pp–pp. <https://doi.org/…>
 
@@ -40,4 +77,3 @@ Comisión Europea. (2026). *Plan de Acción de ciberseguridad e IA*. <https://di
 
 ---
 <p class="nav-footer"><a href="{{ '/conclusiones.html' | relative_url }}">← Conclusiones</a> · <a href="{{ '/' | relative_url }}">Índice</a> · <a href="{{ '/repositorio.html' | relative_url }}">Repositorio →</a></p>
-

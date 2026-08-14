@@ -4,7 +4,7 @@ Panel web de **auditoría ofensiva** de la API REST de [Ollama](https://ollama.c
 
 | Campo | Valor |
 |-------|-------|
-| **Caso TFM** | §6.1.1 — Motores LLM locales (Ollama) |
+| **Caso TFM** | 6.1.1 — Motores LLM locales (Ollama) |
 | **Repo** | [github.com/agentef0ns1/ollama-hacking-tools](https://github.com/agentef0ns1/ollama-hacking-tools) |
 | **Árbol local** | `MASTER/Tools/Ollama-hacking-tool` |
 | **Árbol Caso** | `Caso-1-Arquitecturas-Agenticas/6.1.1-Motores-LLM-locales/Ollama/` |

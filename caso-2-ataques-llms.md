@@ -402,8 +402,20 @@ Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Solucio
 
 ## 6.2.3 Seguridad en el diseño {#seguridad-diseno}
 
+De forma **autónoma**, mediante **observabilidad** del comportamiento de los agentes e investigación de los fallos y bypasses en cada reto, se han identificado e implementado como **medidas de seguridad efectivas** frente a los distintos tipos de ataque (DIO, DTI, IIO, ITI, DAIS, DCE) un conjunto de capas en profundidad. Esas capas son, precisamente, los **niveles progresivos** estudiados en los retos: cada nivel añade o endurece un control (pre-check, post-check, juez LLM, etc.) y obliga al atacante a evadir una defensa adicional.
+
 ![Capas de defensa]({{ '/assets/images/docx/image51.png' | relative_url }})
 <p class="figcap">Capas de defensa en profundidad aplicadas a los retos</p>
+
+**Capas / niveles de defensa observados e implementados:**
+
+- **Pre-check (filtrado de entrada)** — Software de preproceso que inspecciona el prompt del usuario **antes** de enviarlo al LLM principal. Usa expresiones regulares, listas de palabras/parámetros prohibidos y limpieza inicial para bloquear patrones conocidos de injection, órdenes de override o payloads obvios. Es la primera línea de defensa frente a ataques directos (p. ej. DIO/DTI).
+- **Procesado del prompt por el LLM** — El modelo principal interpreta el prompt (ya filtrado) y genera una respuesta candidata. Aquí siguen vigentes el *system prompt*, la política de rol y las restricciones de tools; no es un control de filtrado externo, pero constituye el núcleo de comportamiento que las capas anterior y posteriores protegen.
+- **Post-check con RegEx (filtrado de salida)** — Evaluación determinista de la respuesta del modelo **después** de generarla. Filtros por estructura, palabras clave, URLs, canarios o formatos prohibidos (p. ej. profanidad, exfiltración, invocación de tools peligrosas). Complementa al pre-check porque muchos ataques solo se manifiestan en la salida.
+- **Post-check con juez LLM (otra IA validando)** — Una **segunda IA** (juez / *LLM-as-a-judge*) valida semánticamente la respuesta del modelo principal: detecta fugas de información sensible, jailbreaks sutiles, alucinaciones de política o exfiltraciones que el RegEx no cubre. Si el juez rechaza, se bloquea o se regenera la respuesta antes de entregarla al usuario.
+- **Respuesta final segura** — Solo tras superar pre-check, generación y post-checks (RegEx y/o juez) se entrega el resultado al usuario. En los retos, superar un nivel equivale a evadir una o varias de estas capas; el diseño en profundidad hace que un único bypass no baste para comprometer el sistema.
+
+En la práctica de los retos, estas medidas se combinan y se endurecen por nivel (más reglas, umbrales más estrictos, juez activo, validación de tools/schema, etc.), lo que permite estudiar de forma empírica qué controles son efectivos frente a cada familia de ataque B³.
 
 ---
 
@@ -417,7 +429,7 @@ Un LLM evalúa de forma autónoma cada reto. Tres modalidades:
 | **Redteam local** | LLM local + plugins Promptfoo generan prompts adaptativos |
 | **Redteam remoto** | Plataforma Promptfoo genera los prompts de ataque |
 
-Las capturas de resultados estáticos están **integradas en cada reto** (§6.2.2), una por reto (imágenes 54–64 del documento).
+Las capturas de resultados estáticos están **integradas en cada reto** (apartado 6.2.2), una por reto (imágenes 54–64 del documento).
 
 Ejecución de Promptfoo para la solución automatizada de los retos:
 

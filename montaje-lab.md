@@ -51,7 +51,7 @@ Diseño modular en dos unidades unidas por **OCuLink** (PCIe 4.0 x4):
 | Híbrido | Llama 3.1 70B (Q2/Q3), Mixtral, Command R 35B | 5–15 tok/s |
 | Límite | Llama 3.1 70B Q4, Qwen2.5 72B Q3 | 1–4 tok/s |
 
-La comparación entre motores se detalla en [§6.1]({{ '/caso-1-arquitecturas-agenticas.html' | relative_url }}) (benchmark).
+La comparación entre motores se detalla en el [apartado 6.1]({{ '/caso-1-arquitecturas-agenticas.html' | relative_url }}) (benchmark).
 
 #### Software auxiliar
 

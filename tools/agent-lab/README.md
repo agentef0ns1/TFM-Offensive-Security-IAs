@@ -4,7 +4,7 @@ Laboratorio y CLI **Agent Hacking Tools — Surface Auditor** para inventariar p
 
 | Campo | Valor |
 |-------|-------|
-| **Caso TFM** | §6.1.4 — Permisos, skills y tools |
+| **Caso TFM** | 6.1.4 — Permisos, skills y tools |
 | **Repo** | [github.com/agentef0ns1/agents-hacking-tool](https://github.com/agentef0ns1/agents-hacking-tool) |
 | **Árbol local** | `MASTER/Tools/Agent-lab` |
 | **Árbol Caso** | `Caso-1-Arquitecturas-Agenticas/6.1.4-Permisos-Skills-Tools/` |

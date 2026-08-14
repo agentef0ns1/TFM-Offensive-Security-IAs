@@ -5,7 +5,7 @@ La explotación la realiza **Cline + modelo local** con **MCP Burp**; este MVP o
 
 | Campo | Valor |
 |-------|-------|
-| **Caso TFM** | §6.3.2 — Auditorías autónomas |
+| **Caso TFM** | 6.3.2 — Auditorías autónomas |
 | **Árbol local** | `MASTER/Tools/MVP-burp-certification` |
 | **Árbol Caso** | `Caso-3-Pentesting-Agentico/6.3.2-Auditorias-Autonomas/MCP-Burp/` |
 

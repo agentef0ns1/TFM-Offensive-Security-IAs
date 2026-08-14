@@ -28,7 +28,7 @@ El TFM combina **Design Science Research** (DSR) adaptado a ingeniería de segur
 - Entorno controlado y autorizado; sin pruebas sobre sistemas de terceros.
 - Reproducibilidad: scripts, Docker Compose y documentación de despliegue en el repositorio.
 - Sincronización diaria memoria ↔ web (`TFM-Offensive-Security-IAs/`).
-- Cada sub-apartado de §6 sigue el par **estudio → ejecución** antes de darse por cerrado.
+- Cada subapartado del capítulo 6 sigue el par **estudio → ejecución** antes de darse por cerrado.
 
 ### 4.2 Fases del proyecto
 
@@ -37,7 +37,7 @@ El TFM combina **Design Science Research** (DSR) adaptado a ingeniería de segur
 | Fase   | Sprint(s) | Actividad                                      | Entregable parcial                                   | Estado     |
 |--------|-----------|------------------------------------------------|------------------------------------------------------|------------|
 | **F1** | S0        | Revisión bibliográfica y definición de alcance | Capítulos 1–3 de la memoria                          | Completado |
-| **F2** | S1        | Diseño del laboratorio                         | Arquitectura (§5) y lista de componentes             | Completado |
+| **F2** | S1        | Diseño del laboratorio                         | Arquitectura (apartado 5) y lista de componentes             | Completado |
 | **F3** | S1–S2     | Implementación del lab y herramientas          | Repo GitHub: `tools/`, `lab/`, scripts de despliegue | Completado |
 | **F8** | S12       | Redacción final y defensa                      | Memoria completa + web Jekyll                        | En Curso   |
 

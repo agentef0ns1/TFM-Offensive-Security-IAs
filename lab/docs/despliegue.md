@@ -15,18 +15,18 @@
 
 - Linux con Docker 24+ (labs containerizados)
 - Python 3.10+
-- 16 GB RAM mínimo recomendado; GPU opcional (mejora §6.1.1 / §6.3)
+- 16 GB RAM mínimo recomendado; GPU opcional (mejora 6.1.1 / 6.3)
 - Red aislada del entorno de producción
 
 ## 3. Orden recomendado
 
 1. **Inferencia** — seguir [Proyecto HW IA Local](https://agentef0ns1.github.io/blog-hw-ias/) o instalar solo Ollama/LocalAI vía `Caso-1/.../6.1.1-Motores-LLM-locales/scripts/`.
-2. **§6.1.1** — verificar API del motor; opcionalmente `Ollama-hacking-tool` contra el target local.
-3. **§6.1.2** — `MCP-labs`: servidor → Inspector → agente → hacking-tools.
-4. **§6.1.3** — `PoC-A2A` (invoker + listener).
-5. **§6.1.4** — `Agent-lab` CLI + CTF Docker Codex.
-6. **§6.2** — levantar un Reto de `Inferencia-Gandalf/`; eval con Promptfoo.
-7. **§6.3** — MVP-memory-context / Open-webui; luego MCP-Kali o MVP-burp-certification.
+2. **6.1.1** — verificar API del motor; opcionalmente `Ollama-hacking-tool` contra el target local.
+3. **6.1.2** — `MCP-labs`: servidor → Inspector → agente → hacking-tools.
+4. **6.1.3** — `PoC-A2A` (invoker + listener).
+5. **6.1.4** — `Agent-lab` CLI + CTF Docker Codex.
+6. **6.2** — levantar un Reto de `Inferencia-Gandalf/`; eval con Promptfoo.
+7. **6.3** — MVP-memory-context / Open-webui; luego MCP-Kali o MVP-burp-certification.
 
 ## 4. Verificación rápida
 

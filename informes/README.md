@@ -25,13 +25,13 @@ informes/
 
 | Informe previsto | Evidencias actuales |
 |------------------|---------------------|
-| §6.1.1 Ollama | `Tools/Ollama-hacking-tool/docs/`, PoCs en `Caso-1/.../Ollama/` |
-| §6.1.2 MCP | Capturas `MCP-labs/*.png`, `code_mcp-agent.md` |
-| §6.1.3 A2A | `PoC-A2A/README_ATAQUE.md`, `capture_packets.pcapng` |
-| §6.1.4 Surface | Informes exportados por Agent-lab CLI; `Agent-lab/*.png` |
-| §6.2 Retos | `Caso-2/.../6.2.3 Solución manual/`, `promptfoo/results/` |
-| §6.3.1 Memoria | `MVP-memory-context` diagrams + `.mvp-audit/` en repos auditados |
-| §6.3.2 Burp cert | `MVP-burp-certification/docs/`, `MCP-Burp/Certification-global.md` |
+| 6.1.1 Ollama | `Tools/Ollama-hacking-tool/docs/`, PoCs en `Caso-1/.../Ollama/` |
+| 6.1.2 MCP | Capturas `MCP-labs/*.png`, `code_mcp-agent.md` |
+| 6.1.3 A2A | `PoC-A2A/README_ATAQUE.md`, `capture_packets.pcapng` |
+| 6.1.4 Surface | Informes exportados por Agent-lab CLI; `Agent-lab/*.png` |
+| 6.2 Retos | `Caso-2/.../6.2.3 Solución manual/`, `promptfoo/results/` |
+| 6.3.1 Memoria | `MVP-memory-context` diagrams + `.mvp-audit/` en repos auditados |
+| 6.3.2 Burp cert | `MVP-burp-certification/docs/`, `MCP-Burp/Certification-global.md` |
 
 Cada informe incluirá: alcance, metodología, hallazgos, evidencias y remediación.
 

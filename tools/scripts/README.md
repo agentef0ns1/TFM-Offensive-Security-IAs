@@ -4,7 +4,7 @@ Los scripts operativos viven junto a cada lab/tool. Este directorio del repo web
 
 ## Por dominio
 
-### Motores LLM (§6.1.1)
+### Motores LLM (6.1.1)
 
 `Caso-1-Arquitecturas-Agenticas/6.1.1-Motores-LLM-locales/scripts/`
 
@@ -18,23 +18,23 @@ Los scripts operativos viven junto a cada lab/tool. Este directorio del repo web
 | `configure-ollama-intel-gpu.sh` / `diagnose-ollama.sh` | GPU / diagnóstico |
 | `fix-ollama-*.sh` / `import-ollama-from-gguf.sh` | Operación diaria |
 
-### MCP (§6.1.2)
+### MCP (6.1.2)
 
 `MASTER/Tools/MCP-labs/mcp-server/scripts/` — Inspector stdio/SSE/HTTP, arranque servidor.
 
-### A2A (§6.1.3)
+### A2A (6.1.3)
 
 `MASTER/Tools/PoC-A2A/` — invoker, listeners, `lab_dos_spoof.py`.
 
-### Permisos / skills (§6.1.4)
+### Permisos / skills (6.1.4)
 
 `MASTER/Tools/Agent-lab/scripts/agent-audit-cli.py` — Surface Auditor.
 
-### Ataques LLM (§6.2)
+### Ataques LLM (6.2)
 
 Labs `Inferencia-Gandalf/Reto*` y `Guardrails-Jailbreaks/promptfoo/scripts/` (`run-eval.sh`, `run-redteam.sh`).
 
-### Pentesting agéntico (§6.3)
+### Pentesting agéntico (6.3)
 
 | Origen | Scripts |
 |--------|---------|
@@ -47,6 +47,6 @@ Labs `Inferencia-Gandalf/Reto*` y `Guardrails-Jailbreaks/promptfoo/scripts/` (`r
 
 | Script | Función |
 |--------|---------|
-| [`../../scripts/generate_architecture_diagrams.py`](../../scripts/generate_architecture_diagrams.py) | Diagramas §6.1 |
+| [`../../scripts/generate_architecture_diagrams.py`](../../scripts/generate_architecture_diagrams.py) | Diagramas 6.1 |
 
 [← Tools](../README.md)

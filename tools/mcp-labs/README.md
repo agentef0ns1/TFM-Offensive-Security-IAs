@@ -4,7 +4,7 @@ Laboratorio de **Model Context Protocol** aplicado a pentesting: servidor de too
 
 | Campo | Valor |
 |-------|-------|
-| **Caso TFM** | §6.1.2 — Arquitectura agéntica MCP |
+| **Caso TFM** | 6.1.2 — Arquitectura agéntica MCP |
 | **Repo** | [github.com/agentef0ns1/MCP-security-lab](https://github.com/agentef0ns1/MCP-security-lab) |
 | **Árbol local** | `MASTER/Tools/MCP-labs` |
 | **Árbol Caso** | `Caso-1-Arquitecturas-Agenticas/6.1.2-MCP/mcp-lab/` |

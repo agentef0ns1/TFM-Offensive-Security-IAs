@@ -1,7 +1,7 @@
 # Tools — Herramientas del TFM
 
 Catálogo de **herramientas y laboratorios de código** desarrollados o integrados en el TFM.  
-Cada entrada apunta al repositorio (o árbol de trabajo) canónico; este directorio documenta el mapeo con los casos §6.
+Cada entrada apunta al repositorio (o árbol de trabajo) canónico; este directorio documenta el mapeo con los casos del capítulo 6.
 
 > **Aviso:** uso exclusivo en entornos controlados con autorización explícita.
 
@@ -11,12 +11,13 @@ Cada entrada apunta al repositorio (o árbol de trabajo) canónico; este directo
 
 | Tool | Repositorio / ruta | Caso TFM | Rol |
 |------|--------------------|----------|-----|
-| **Ollama-hacking-tool** | [ollama-hacking-tools](https://github.com/agentef0ns1/ollama-hacking-tools) · `MASTER/Tools/Ollama-hacking-tool` | [§6.1.1](../caso-1-arquitecturas-agenticas.md#611-motores-llm-locales) | Auditoría ofensiva de la API REST de Ollama (recon, CVE, inyección, payloads) |
-| **MCP-labs** | [MCP-security-lab](https://github.com/agentef0ns1/MCP-security-lab) · `MASTER/Tools/MCP-labs` | [§6.1.2](../caso-1-arquitecturas-agenticas.md#612-arquitectura-agéntica-mcp) | Lab MCP: `mcp-server`, `mcp-agent`, `MCP-hacking-tools` (stdio/SSE/HTTP) |
-| **PoC-A2A** | [A2A-security-lab](https://github.com/agentef0ns1/A2A-security-lab) · `MASTER/Tools/PoC-A2A` | [§6.1.3](../caso-1-arquitecturas-agenticas.md#613-arquitectura-agéntica-agent-to-agent-a2a) | PoC Agent-to-Agent + vectores DoS/spoof |
-| **Agent-lab** | [agents-hacking-tool](https://github.com/agentef0ns1/agents-hacking-tool) · `MASTER/Tools/Agent-lab` | [§6.1.4](../caso-1-arquitecturas-agenticas.md#614-permisos-skills-y-tools) | Surface Auditor (Codex) + CTF Docker de superficie agéntica |
-| **MVP-memory-context** | `MASTER/Tools/MVP-memory-context` | [§6.3.1](../caso-3-pentesting-agentico.md#631-ia-como-asistente-de-auditorías) | MCP de memoria/contexto para auditoría de código con LLM local |
-| **MVP-burp-certification** | `MASTER/Tools/MVP-burp-certification` | [§6.3.2](../caso-3-pentesting-agentico.md#632-auditorías-autónomas) | Orquestación de certificación PortSwigger + Cline + MCP Burp |
+| **Ollama-hacking-tool** | [ollama-hacking-tools](https://github.com/agentef0ns1/ollama-hacking-tools) · `MASTER/Tools/Ollama-hacking-tool` | [6.1.1](../caso-1-arquitecturas-agenticas.md#611-motores-llm-locales) | Auditoría ofensiva de la API REST de Ollama (recon, CVE, inyección, payloads) |
+| **MCP-labs** | [MCP-security-lab](https://github.com/agentef0ns1/MCP-security-lab) · `MASTER/Tools/MCP-labs` | [6.1.2](../caso-1-arquitecturas-agenticas.md#612-arquitectura-agéntica-mcp) | Lab MCP: `mcp-server`, `mcp-agent`, `MCP-hacking-tools` (stdio/SSE/HTTP) |
+| **PoC-A2A** | [A2A-security-lab](https://github.com/agentef0ns1/A2A-security-lab) · `MASTER/Tools/PoC-A2A` | [6.1.3](../caso-1-arquitecturas-agenticas.md#613-arquitectura-agéntica-agent-to-agent-a2a) | PoC Agent-to-Agent + vectores DoS/spoof |
+| **Agent-lab** | [agents-hacking-tool](https://github.com/agentef0ns1/agents-hacking-tool) · `MASTER/Tools/Agent-lab` | [6.1.4](../caso-1-arquitecturas-agenticas.md#614-permisos-skills-y-tools) | Surface Auditor (Codex) + CTF Docker de superficie agéntica |
+| **MVP-memory-context** | [MVP-code-review-full-context-control](https://github.com/agentef0ns1/MVP-code-review-full-context-control) · `MASTER/Tools/MVP-memory-context` | [6.3.1](../caso-3-pentesting-agentico.md#asistente-auditorias) | MCP de memoria/contexto para auditoría de código con LLM local |
+| **MCP-kali-cline** | [MCP-kali-cline](https://github.com/agentef0ns1/MCP-kali-cline) | [6.3.1](../caso-3-pentesting-agentico.md#mcp-kali-cline) | Wrapper Kali Linux + MCP para Cline/Cursor (Docker, noVNC) |
+| **MVP-burp-certification** | `MASTER/Tools/MVP-burp-certification` | [6.3.2](../caso-3-pentesting-agentico.md#auditorias-autonomas) | Orquestación de certificación PortSwigger + Cline + MCP Burp |
 
 Fichas locales (este repo):
 

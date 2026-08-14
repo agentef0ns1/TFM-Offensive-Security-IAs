@@ -42,7 +42,7 @@ Fuente canónica: `TFM-Offensive-Security-IAs_v1.0.docx`. Esta web reproduce el 
 Todo el contenido del laboratorio se ha realizado sobre el siguiente **servidor de inferencia**, montado de forma explícita e íntegra para el TFM (AtomMan X7 Ti + GPU AMD RX 7900 XTX vía OCuLink).
 
 ![Servidor de inferencia del TFM]({{ '/assets/images/docx/image3.png' | relative_url }})
-<p class="figcap">Servidor de inferencia local del laboratorio — Minisforum AtomMan X7 Ti y eGPU AMD Radeon RX 7900 XTX. Detalle en <a href="{{ '/montaje-lab.html' | relative_url }}">§5 Montaje del laboratorio</a>.</p>
+<p class="figcap">Servidor de inferencia local del laboratorio — Minisforum AtomMan X7 Ti y eGPU AMD Radeon RX 7900 XTX. Detalle en <a href="{{ '/montaje-lab.html' | relative_url }}">5. Montaje del laboratorio</a>.</p>
 
 <div class="video-wrap">
 <iframe src="https://www.youtube.com/embed/Op__mTqt7j0" title="Servidor de inferencia del TFM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

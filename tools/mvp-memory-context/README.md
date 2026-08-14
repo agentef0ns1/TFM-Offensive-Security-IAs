@@ -4,7 +4,8 @@ Servidor **MCP** de memoria y control de ventana de contexto para **auditoría d
 
 | Campo | Valor |
 |-------|-------|
-| **Caso TFM** | §6.3.1 — IA como asistente de auditorías |
+| **Caso TFM** | 6.3.1 — IA como asistente de auditorías |
+| **Repo canónico** | [MVP-code-review-full-context-control](https://github.com/agentef0ns1/MVP-code-review-full-context-control) |
 | **Árbol local** | `MASTER/Tools/MVP-memory-context` |
 | **Árbol Caso** | `Caso-3-Pentesting-Agentico/6.3.1-IA-Asistente-Auditorias/MVP-analisis-codigo/` |
 
@@ -17,7 +18,8 @@ Servidor **MCP** de memoria y control de ventana de contexto para **auditoría d
 | Persistencia | SQLite local + informes en disco (`RESUMEN-EJECUTIVO.md`) |
 
 ```bash
-cd MASTER/Tools/MVP-memory-context
+git clone https://github.com/agentef0ns1/MVP-code-review-full-context-control.git
+cd MVP-code-review-full-context-control
 chmod +x scripts/*.sh
 ./scripts/install.sh
 # Depurar tools: MCP Inspector (ver README del proyecto)
