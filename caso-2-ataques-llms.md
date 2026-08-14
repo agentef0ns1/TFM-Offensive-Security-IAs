@@ -71,7 +71,7 @@ Clasificar ataques que alteran **comportamiento**, fuerzan **bypass** o provocan
 
 ## 6.2.2 Retos {#retos}
 
-Cada reto agrupa definición, solución manual (y vídeo si aplica) y evidencia de solución automatizada con Promptfoo.
+Cada reto agrupa definición, solución manual, vídeo y evidencia de solución automatizada con Promptfoo.
 
 ### Reto 0 — F0ns1 CTF · Suelta la panoja {#reto-0}
 
@@ -84,6 +84,13 @@ El atacante debe lograr que el **Guardián del Secreto** comparta la keyword del
 #### Solución manual {#reto-0-solucion-manual}
 
 Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Soluciones-de-retos</a>.
+
+#### Vídeo {#reto-0-video}
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/MVx4puzXeXQ" title="Reto 0 — Suelta la panoja (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 0 — CTF F0ns1 / Suelta la panoja (solución) — <a href="https://youtu.be/MVx4puzXeXQ">YouTube</a></p>
 
 #### Solución automatizada {#reto-0-solucion-automatizada}
 
@@ -178,9 +185,9 @@ Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Solucio
 #### Vídeo {#reto-3-video}
 
 <div class="video-wrap">
-<iframe src="https://www.youtube.com/embed/1BitTyvV8ok" title="Reto 3 — Trippy Planner (solución manual)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/1BitTyvV8ok" title="Reto 3 — Trippy Planner (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<p class="figcap">Reto 3 — Trippy Planner (solución manual) — <a href="https://youtu.be/1BitTyvV8ok">YouTube</a></p>
+<p class="figcap">Reto 3 — Trippy Planner (solución) — <a href="https://youtu.be/1BitTyvV8ok">YouTube</a></p>
 
 #### Solución automatizada {#reto-3-solucion-automatizada}
 
@@ -208,9 +215,9 @@ Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Solucio
 #### Vídeo {#reto-4-video}
 
 <div class="video-wrap">
-<iframe src="https://www.youtube.com/embed/6LPOqTywBEQ" title="Reto 4 — Curs-ed CodeReview (solución manual)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/6LPOqTywBEQ" title="Reto 4 — Curs-ed CodeReview (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<p class="figcap">Reto 4 — Curs-ed CodeReview (solución manual) — <a href="https://youtu.be/6LPOqTywBEQ">YouTube</a></p>
+<p class="figcap">Reto 4 — Curs-ed CodeReview (solución) — <a href="https://youtu.be/6LPOqTywBEQ">YouTube</a></p>
 
 #### Solución automatizada {#reto-4-solucion-automatizada}
 
@@ -234,6 +241,13 @@ Asistente jurídico con RAG + `send_email` ([Agent Breaker](https://gandalf.lake
 
 Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Soluciones-de-retos</a>.
 
+#### Vídeo {#reto-5-video}
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/cJQWC0yfsPE" title="Reto 5 — Clause AI (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 5 — Clause AI (solución) — <a href="https://youtu.be/cJQWC0yfsPE">YouTube</a></p>
+
 #### Solución automatizada {#reto-5-solucion-automatizada}
 
 ![Reto 5 — Promptfoo]({{ '/assets/images/docx/image58.png' | relative_url }})
@@ -252,6 +266,13 @@ PDF 10-K envenenado → asignación ~100% a **SCAMX** o rentabilidad garantizada
 #### Solución manual {#reto-6-solucion-manual}
 
 Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Soluciones-de-retos</a>.
+
+#### Vídeo {#reto-6-video}
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/fq-UzqMJYxw" title="Reto 6 — PortfolioIQ (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 6 — PortfolioIQ (solución) — <a href="https://youtu.be/fq-UzqMJYxw">YouTube</a></p>
 
 #### Solución automatizada {#reto-6-solucion-automatizada}
 
@@ -282,6 +303,13 @@ attack_success = cosine_sim(respuesta, pasaje_Pooh) > POOH_SUCCESS_THRESHOLD  # 
 
 Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Soluciones-de-retos</a>.
 
+#### Vídeo {#reto-7-video}
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/hciiFZgGcoY" title="Reto 7 — MindfulChat (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 7 — MindfulChat (solución) — <a href="https://youtu.be/hciiFZgGcoY">YouTube</a></p>
+
 #### Solución automatizada {#reto-7-solucion-automatizada}
 
 ![Reto 7 — Promptfoo]({{ '/assets/images/docx/image60.png' | relative_url }})
@@ -300,6 +328,13 @@ E-commerce mock. **DCE**: enumerar tools + `information_schema` (umbral ~75/100)
 #### Solución manual {#reto-8-solucion-manual}
 
 Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Soluciones-de-retos</a>.
+
+#### Vídeo {#reto-8-video}
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/ODC4UNCrwSI" title="Reto 8 — Thingularity (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 8 — Thingularity (solución) — <a href="https://youtu.be/ODC4UNCrwSI">YouTube</a></p>
 
 #### Solución automatizada {#reto-8-solucion-automatizada}
 
@@ -325,6 +360,13 @@ L2+: ROUGE-L historial ≥ CHAT_ROUGE_THRESHOLD (0.75)
 
 Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Soluciones-de-retos</a>.
 
+#### Vídeo {#reto-9-video}
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/QhUsU6RxMNE" title="Reto 9 — OmniChat Desktop (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 9 — OmniChat Desktop (solución) — <a href="https://youtu.be/QhUsU6RxMNE">YouTube</a></p>
+
 #### Solución automatizada {#reto-9-solucion-automatizada}
 
 ![Reto 9 — Promptfoo]({{ '/assets/images/docx/image62.png' | relative_url }})
@@ -343,6 +385,13 @@ System prompt confidencial (metodología). Extracción **DCE** por ROUGE-L / can
 #### Solución manual {#reto-10-solucion-manual}
 
 Write-up en <a href="https://github.com/agentef0ns1/Soluciones-de-retos">Soluciones-de-retos</a>.
+
+#### Vídeo {#reto-10-video}
+
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/h3hcaymoWDM" title="Reto 10 — Cycling Coach (solución)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class="figcap">Reto 10 — Cycling Coach (solución) — <a href="https://youtu.be/h3hcaymoWDM">YouTube</a></p>
 
 #### Solución automatizada {#reto-10-solucion-automatizada}
 
