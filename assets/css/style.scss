@@ -95,6 +95,26 @@ figcaption, .figcap {
   border-top: 1px solid #30363d;
 }
 
+/* Header: autor + enlaces de contacto */
+header .site-author {
+  margin: 0.35rem 0 0.5rem;
+  color: #b5e853;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+header .header-links {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+header .header-links .btn {
+  margin: 0;
+}
+
 /* TOC */
 #índice + ul,
 #indice + ul,

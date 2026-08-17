@@ -17,6 +17,7 @@
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
+        <p class="site-author">{{ site.author | default: "Ildefonso González Sánchez" }}</p>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">
@@ -25,6 +26,17 @@
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
           {% endif %}
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+
+        <section id="contact-links" class="header-links" aria-label="Contactos y enlaces de interés">
+          <a href="https://f0ns1.github.io/" class="btn" target="_blank" rel="noopener noreferrer">Web</a>
+          <a href="https://www.linkedin.com/in/ildefonso-gonz%C3%A1lez-s%C3%A1nchez-0b693555" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.youtube.com/xiquifonso" class="btn" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://f0ns1reviewed.github.io/" class="btn" target="_blank" rel="noopener noreferrer">Blog Malware</a>
+          <a href="https://f0ns1-crtm.github.io/" class="btn" target="_blank" rel="noopener noreferrer">Blog CRTM</a>
+          <a href="https://agentef0ns1.github.io/agente-f0ns1/" class="btn" target="_blank" rel="noopener noreferrer">Blog IAs</a>
+          <a href="https://roadtooscp-f0ns1.blogspot.com/" class="btn" target="_blank" rel="noopener noreferrer">Blog OSCP</a>
+          <a href="https://www.twitch.tv/f0ns1_mad" class="btn" target="_blank" rel="noopener noreferrer">Twitch</a>
         </section>
       </div>
     </header>

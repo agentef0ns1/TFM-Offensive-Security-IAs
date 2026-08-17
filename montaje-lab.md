@@ -62,11 +62,12 @@ La comparación entre motores se detalla en el [apartado 6.1]({{ '/caso-1-arquit
 | `scripts/install-atomman-service.sh` | Instalación |
 | Inference-Monitor | Web Docker de monitorización HW + motores LLM |
 
-<div class="callout">
+Documentación del montaje físico (repo y web):
 
-Blog del montaje físico: [Proyecto HW IA Local Bajo Coste](https://agentef0ns1.github.io/blog-hw-ias/)
+<div class="card"><h4>📦 GitHub — blog-hw-ias</h4><p><a href="https://github.com/agentef0ns1/blog-hw-ias">github.com/agentef0ns1/blog-hw-ias</a></p></div>
 
-</div>
+<div class="card"><h4>🌐 Web — Proyecto HW IA Local Bajo Coste</h4><p><a href="https://agentef0ns1.github.io/blog-hw-ias/">agentef0ns1.github.io/blog-hw-ias</a></p></div>
+
 <p class="nav-footer"><a href="{{ '/planificacion.html' | relative_url }}">← Planificación</a> · <a href="{{ '/' | relative_url }}">Índice</a> · <a href="{{ '/caso-1-arquitecturas-agenticas.html' | relative_url }}">Caso 1 →</a></p>
 
 
